@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!-- TOGGLE BUTTON TO SELECT A STOCK IN THE LIST   -->
+<select name= stocks method="GET" action="/">
+    {% for stock in stocks %}
+    <option value= "{{stock}}" SELECTED>{{stock}}</option>"
+    {% endfor %}
+</select>
+
+  
+</body>
+</html>
